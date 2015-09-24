@@ -1,0 +1,92 @@
+[
+	{
+		"name":"Knee Replacement",
+		"id":"knee_replacement",
+		"type":"Treatment",
+		"dept":"Orthopaedic",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"http://www.webmd.com/osteoarthritis/guide/knee-replacement-surgery",
+		"about":"You and your doctor may consider knee replacement surgery if you have a stiff, painful knee that makes it difficult to perform even the simplest of activities, and other treatments are no longer working.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"Rhinoplasty",
+		"id":"rhinoplasty",
+		"type":"Treatment",
+		"dept":"Cosmetology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"http://www.webmd.com/osteoarthritis/guide/knee-replacement-surgery",
+		"about":"You and your doctor may consider knee replacement surgery if you have a stiff, painful knee that makes it difficult to perform even the simplest of activities, and other treatments are no longer working.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"MRI",
+		"id":"mri",
+		"type":"Diagnostic",
+		"dept":"Neurology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+		"about":"Magnetic resonance imaging (MRI), nuclear magnetic resonance imaging (NMRI), or magnetic resonance tomography (MRT) is a medical imaging technique used in radiology to investigate .",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"USG",
+		"id":"usg",
+		"type":"Diagnostic",
+		"dept":"Gynaecology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"https://en.wikipedia.org/wiki/Medical_ultrasound",
+		"about":"Sonography is used to examine many internal organs of the body, such as the abdomen, breasts, the male and female reproductive system, the fetus of a pregnant woman, heart and blood vessels etc.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"Appendicitis",
+		"id":"appendicitis",
+		"type":"Treatment",
+		"dept":"other",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"http://www.webmd.com/digestive-disorders/digestive-diseases-appendicitis",
+		"about":"Appendicitis is a medical emergency that requires prompt surgery to remove the appendix. Left untreated, an inflamed appendix will eventually burst, or perforate, spilling infectious materials into the abdominal cavity.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"CT scan",
+		"id":"ct_scan",
+		"type":"Diagnostic",
+		"dept":"Neurology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"https://en.wikipedia.org/wiki/CT_scan",
+		"about":"A computed tomography (CT) scan uses X-rays to make detailed pictures of structures inside of the body. During the test, you will lie on a table that is attached to the CT scanner, which is a large doughnut-shaped machine.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"Skin grafting",
+		"id":"skin_grafting",
+		"type":"Treatment",
+		"dept":"Cosmetology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"https://en.wikipedia.org/wiki/Skin_grafting",
+		"about":"Skin grafting is a type of graft surgery involving the transplantation of skin. The transplanted tissue is called a skin graft. Skin grafting is often used to treat: Extensive wounding or trauma. Burns.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"MRI",
+		"type":"Diagnostic",
+		"id":"mri1",
+		"dept":"Neurology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+		"about":"Magnetic resonance imaging (MRI), nuclear magnetic resonance imaging (NMRI), or magnetic resonance tomography (MRT) is a medical imaging technique used in radiology to investigate .",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	},
+	{
+		"name":"USG",
+		"id":"usg2",
+		"type":"Diagnostic",
+		"dept":"Gynaecology",
+		"video":"https://www.youtube.com/watch?v=AwXJNXNcLNs",
+		"wiki":"https://en.wikipedia.org/wiki/Medical_ultrasound",
+		"about":"Sonography is used to examine many internal organs of the body, such as the abdomen, breasts, the male and female reproductive system, the fetus of a pregnant woman, heart and blood vessels etc.",
+		"more": "Be sure the people around you make you feel good about you no matter what your size or health condition. In addition, if close friends encourage you to smoke, overeat, or drink too much, find some new friends who have good health habits and also want a healthier you.Elaine Magee, MPH, Rd, author of more than 20 books, says dont get hung up on pounds or what size dress you are wearing."
+	}
+]
