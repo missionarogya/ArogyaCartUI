@@ -1,5 +1,33 @@
-<div>
-<h1>TG</h1>
-<p>{{ message1 }}</p>
+<div class="procedureDetails">
+<center><h2>{{ selectedProcDetails.name }}</h2></center>
+<table valign="center">
+<tr>
+<td class="previewFirstColumn" align="right">
+<label>Department: </label>{{selectedProcDetails.dept}}<br>
+<label>Type: </label>{{selectedProcDetails.type}}<br>
+<video width="300" height="250" controls>
+  <source src="vdo.mp4" type="video/mp4">
+</video><br><br>
+<i>{{selectedProcDetails.about}}</i><br><br>
+<i>{{selectedProcDetails.more}}</i><br><br>
+<a href={{selectedProcDetails.wiki}}>More Resources<a><br>
+</td>
+<td width="10%"><hr width="1" size="500" color="01DF3A"></td>
+<td class="previewFirstColumn" align="left">
+<label>List of Hospitals performing </label>{{selectedProcDetails.name}}.
+<ul>
+<li ng-repeat="items in procedureHospitalDetails | limitTo:3 | orderBy:'ranking'">
+{{items.name}}<br>
+<i>{{items.address}}</i><br>
+<a href={{items.website}}>Website</a><br>
+<label>Phone: </label>{{items.phone}}<br>
+<label>Email: </label>{{items.email}}<br>
+<label>FAX: </label>243567576789990<br><br>
+</li>
+</ul>
+<a href="#compareHospitals/{{selectedProcDetails.name}}/{{selectedProcDetails.id}}"><b>See the complete list & COMPARE!</b></a><br>
+</td
+</tr>
+</table>
 </div>
 

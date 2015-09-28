@@ -1,0 +1,132 @@
+[
+	{
+	"name":"INK",
+	"id":"ink",
+	"email":"abc@xyz.com",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"website":"www.ink.com",
+	"phone":"1234567890",
+	"price":"Rs 1700",
+	"ranking":"9"
+	},
+	{
+	"name":"Fortis",
+	"id":"fortis",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"website":"www.fortis.com",
+	"phone":"1234567890",
+	"price":"Rs 2500",
+	"email":"abc@xyz.com",
+	"ranking":"3"
+	},
+	{
+	"name":"Peerless",
+	"id":"peerless",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.peerless.com",
+	"phone":"1234567890",
+	"price":"Rs 2510",
+	"ranking":"4"
+	},
+	{
+	"name":"Ruby hospital",
+	"id":"ruby",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"website":"www.ruby.com",
+	"email":"abc@xyz.com",
+	"phone":"1234567890",
+	"price":"Rs 1500",
+	"ranking":"1"
+	},
+	{
+	"name":"Peerless",
+	"id":"peerless",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.peerless.com",
+	"phone":"1234567890",
+	"price":"Rs 2510",
+	"ranking":"34"
+	},
+	{
+	"name":"Ruby hospital",
+	"id":"ruby",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"website":"www.ruby.com",
+	"email":"abc@xyz.com",
+	"phone":"1234567890",
+	"price":"Rs 1500",
+	"ranking":"20"
+	},
+	{
+	"name":"INK",
+	"id":"ink",
+	"email":"abc@xyz.com",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"website":"www.ink.com",
+	"phone":"1234567890",
+	"price":"Rs 1700",
+	"ranking":"29"
+	},
+	{
+	"name":"TATA",
+	"id":"tata",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.tata.com",
+	"phone":"1234567890",
+	"price":"Rs 1100",
+	"ranking":"7"
+	},
+	{
+	"name":"INK",
+	"id":"ink",
+	"email":"abc@xyz.com",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"website":"www.ink.com",
+	"phone":"1234567890",
+	"price":"Rs 1700",
+	"ranking":"19"
+	},
+	{
+	"name":"TATA",
+	"id":"tata",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.tata.com",
+	"phone":"1234567890",
+	"price":"Rs 1100",
+	"ranking":"70"
+	},
+	{
+	"name":"Bellevue",
+	"id":"bellevue",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.bellevue.com",
+	"phone":"1234567890",
+	"price":"Rs 2900",
+	"ranking":"5"
+	},
+	{
+	"name":"TATA",
+	"id":"tata",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.tata.com",
+	"phone":"1234567890",
+	"price":"Rs 1100",
+	"ranking":"71"
+	},
+	{
+	"name":"Bellevue",
+	"id":"bellevue",
+	"address":"Tower A, Unitech Business Park,Block - F, South City 1, Sector - 41,Kolkata-100091",
+	"email":"abc@xyz.com",
+	"website":"www.bellevue.com",
+	"phone":"1234567890",
+	"price":"Rs 2900",
+	"ranking":"51"
+	}
+]

@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US" ng-app="myApp">
+<html lang="en-US" ng-app="home">
 <head>
-<title>demo</title>
+<title>Arogya Cart</title>
 <script src="angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
 <script src="demo.js"></script>
 <link rel="stylesheet" type="text/css" href="styles.css"> 
 </head>
-<body ng-controller="myController">
+<body ng-controller="homeController">
+<div id="main">
+	<div ng-view>
+</div>
 <table class="tbl">
 <tr class="tbl">
 <td class="boxes">
 <div class="scroll">
 <ul id="box_display">
-<li ng-repeat="items in procedures | filter:searchText | orderBy:'name'">
+<li ng-repeat="items in procedures | filter:searchText | orderBy:'name'" ng-click="goToProcedurePage('procedure/'+items.id)">
 <br>
 <b>{{items.name | uppercase}}</b><br>
 {{items.type}}<br>
 {{items.dept}}<br><br>
 <i>{{items.about}}</i><br>
-<a href="#proc">Read more..</a><br><br>
+<a href={{items.wiki}}>Resources</a><br><br>
 </li>
 </ul>
 </div>
 </td>
-<td class="list" rowspan="2">
-<div class="scroll1">
+<td class="list">
+<div class="scroll">
 <ul id="right_nav_pane">
 <li ng-repeat="items in hospitals">
 <a href={{items.website}}>{{items.name}} , {{items.location}}</a>
@@ -34,13 +37,12 @@
 </div>	
 </td>
 </tr>
-<tr>
+<tr colspan="2">
 <td class="txtSearch">
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Did not find what you are looking for? Search here! </b><input ng-model="searchText" id="txtSearch" class="search" type=text> <input class="go" type="button" id="btnSearch" value=" GO ">
 </td>
 </tr>
 </table>
-	<div ng-view></div>
 </body>
 </html>

@@ -1,25 +1,52 @@
-var app = angular.module('myApp', ['ngRoute']);
+var home = angular.module('home', ['ngRoute']);
 
-app.controller('myController', function($scope,$http,$location) {
+home.controller('homeController', function($scope, $http, $location, $rootScope) {
 	$http.get('procedures.json').then(function(result){
-	$scope.procedures = result.data;
+	$rootScope.procedures = result.data;
 	});
 	$http.get('hospitals.json').then(function(result){
 		$scope.hospitals = result.data;
 	});	
-	$scope.gotoNewPage = function($event, id, path){
-		$scope.selectedPage = id;
+	$scope.goToProcedurePage = function(path){
 		$location.path(path);
 	}
 });
 
-app.config(['$routeProvider',function($routeProvider){
-	$routeProvider.when('/proc',{
-		templateURl:'procedureDetails.html',
-		controller: 'myController1'
-	});	
+home.config(['$routeProvider',function($routeProvider){
+	$routeProvider
+	.when('/procedure/:id',{
+		templateUrl:'procedureDetails.html',
+		controller: 'procedureDetailsController'
+	})
+	.when('/compareHospitals/:name/:id',{
+		templateUrl:'compareHospitalDetails.html',
+		controller: 'compareHospitalDetailsController'
+	});
 }]);
 
-app.controller('myController1', function($scope) {
-		$scope.message1 = 'Look! I am an about page.';
+home.controller('procedureDetailsController', function($filter, $http, $scope, $routeParams, $rootScope) {
+		$http.get($routeParams.id+'.json').then(function(result){
+			$scope.procedureHospitalDetails = result.data;
+		});
+		$scope.selectedProcDetails = $filter('filter')($rootScope.procedures, {id:$routeParams.id})[0];
 	});
+	
+home.controller('compareHospitalDetailsController', function($http, $scope, $routeParams) {
+		var sortType = 'asc';
+		$http.get($routeParams.id+'.json').then(function(result){
+			$scope.procedureHospitalComparisonDetails = result.data;
+		});
+		$scope.selectedProcedureForHospitalComparison = $routeParams.name;
+		$scope.sortBy = function(column){
+			if(sortType == 'asc'){
+				sortType = 'desc';
+				$scope.sortingColumn = column;
+			}
+			else{
+				sortType = 'asc';
+				$scope.sortingColumn = '-'+column;
+			}
+		}
+	});
+	
+	

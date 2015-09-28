@@ -59,14 +59,33 @@ height: 30px;
 background: #ccc;
 font-weight: bold;
 }
-div.scroll{
+.scroll{
 width:100%;
 max-height:565px; 
 overflow-y:auto;
 overflow-x:hidden;
 }
-div.scroll1{
-height:650px; 
+.procedureDetails{
+border-radius: 255px;
+width:95%;
+height:643px; 
+background: #58FA82;
+margin:0 auto;
+}
+.previewFirstColumn{
+word-wrap: break-word;
+width:40%;
+}
+.comparisonTable{
+width:85%;
+height:525px;
+margin:0 auto;
+}
+.scroll1{
+list-style: none;
+width:85%;
+max-height:480px; 
 overflow-y:auto;
 overflow-x:hidden;
 }
+.compTbl tr:hover{background:#01DF3A}

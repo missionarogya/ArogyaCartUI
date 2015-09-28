@@ -1,0 +1,35 @@
+<div class="procedureDetails">
+<center><h2>Comparison of Hospitals performing {{selectedProcedureForHospitalComparison}}.</h2></center>
+<div class="comparisonTable">
+<ul class="scroll1"	>
+<table>
+<tr bgcolor="#01DF3A">
+	<th width="7%">#</th>
+	<th width="20%" ng-click="sortBy('name')"><b><u>Name</u></b></th>
+	<th width="30%"><b><u>Address</u></b></th>
+	<th width="20%"><b><u>Contact</u></b></th>
+	<th width="14%" ng-click="sortBy('price')"><b><u>Price</u></b></th>
+	<th width="7%" ng-click="sortBy('ranking')"><b><u>Ranking</u></b></th>
+</tr>
+</table>
+</ul>
+<ul class="scroll1"	>
+<li ng-repeat = "items in procedureHospitalComparisonDetails | orderBy:sortingColumn" >
+<table class="compTbl">
+<tr>
+<td align="center" width="7%">{{$index+1}}</td>
+<td align="left" width="20%"><a href={{items.website}}> {{items.name | uppercase}}</a></td>
+<td align="left" width="30%">{{items.address}}</td>
+<td align="right" width="20%">
+{{items.phone}}<br>
+{{items.email}}
+</td>
+<td align="right" width="14%"><label>Rs. </label>{{items.price}}</td>
+<td align="center" width="7%">{{items.ranking}}</td>
+<td width="5%" align="right"><b><input type="checkbox" value="" id={{items.id}}></b></td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+</div>
